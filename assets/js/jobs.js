@@ -1,70 +1,45 @@
 // Project data
 const projects = [
     {
-        company: "USAA",
-        companyLogo: "https://cdn.brandfetch.io/id7nXFaoJg/w/718/h/718/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
+        company: "Creatrs Touch",
         color: '#12385C',
-        role: "Software Developer",
-        date: "Apr 2024 - Present",
+        role: "Junior Web Developer",
+        date: "Aug 2022 - June 2023",
         desc: "",
         descBullets: [
-            "Utilized Kafka to facilitate real-time data streaming, improving system responsiveness and supporting event-driven architecture for asynchronous processing.",
-            "Designed and optimized RESTful APIs with Spring MVC and Spring Boot, applying industry best practices for security, performance, and integration.",
-            "Enhanced user interface performance by optimizing Angular components and reducing load times, leading to a better user experience and increased user engagement."
+            "Designed and managed a MySQL database schema, written and optimized SQL queries for data retrieval, repoting and basic CRUD operations. Created automated data imgestion pipelines with python scripts to import and clean CSV files from clients which led to reduced manual data prep time by 75%.",
+            "Built interactive dashboards using Plotly Dash, helping clients to explore sales and user metrics through simple interfaces. Provided level 1 support for data pipelines issues with 99% uptime.",
+            "Deployed and maintained applications on Heroku using Git and supported post deployment assistance, log checking using Heroku  dashboard and python to solve any issues quickly.",
+            "Integrated NLTK based sentiment classifier into the client dashboard to auto tag customer feedback which provides immediate insights to the marketing teams."
         ]
     },
     {
-        company: "Publicis Sapient",
-        companyLogo: "https://cdn.brandfetch.io/id1a_DBw-1/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
+        company: "APSSDC",
         color: '#FE414D',
-        role: "Software Engineer",
-        date: "Jun 2023 - Apr 2024",
+        role: "Embedded Systems Intern",
+        date: "Jan 2022 - May 2022",
         desc: "",
         descBullets: [
-            "Implemented Hibernate ORM for database schema automation, improving data persistence and reducing manual effort.",
-            "Designed and implemented a layered architecture using design patterns (Singleton, Factory, Strategy) to improve code readability and maintainability.",
-            "Worked closely with product and design teams, translating business requirements into technical solutions and driving feature development."
+            "Developed and evaluated embedded C firmware for 8051-based microcontrollers using the Keil uVision (C51), implementing sensor data acquisition and control logic for Arduino-style prototypes.",
+            "Circuit schematics were designed, simulated, and debugged in Proteus to guarantee precise timing and dependable sensor-driven system functioning.",
+            "Worked on a Smart Car Parking project with HC-SR04 ultrasonic sensors on an Arduino, optimizing calibration to achieve 95% detection accuracy and built obstacle detection algorithms, performed iterative firmware debugging and optimized sensor calibrations for precise vehicle detection.",
+            "Constructed detailed technical documentation, such as test results, code annotations, and system architectural diagrams, which improved team knowledge transfer and simplified further development."
         ]
     },
     {
-        company: "Arvest Bank",
-        companyLogo: "https://cdn.brandfetch.io/idGIe3oexM/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B",
+        company: "MIC College of Technology",
         color: '#00457C',
-        role: "Software Engineer",
-        date: "Jan 2021 - Dec 2022",
+        role: "Assistant",
+        date: "Aug 2019 - May 2021",
         desc: "",
         descBullets: [
-            "Improved transaction processing performance using AWS RDS and EC2.",
-            "Applied AWS CloudWatch for real-time monitoring and proactive issue resolution.",
-            "Built secure RESTful APIs to support mobile banking features and real-time updates with SNS and Kafka."
+            "Coordinated and managed a team of 6 students in designing and deploying AI enhanced electrical monitoring systems for three campus buildings, integrated voltage sensors and developed Random Forest, SVM modelsachieving 90% fault detection accuracy which improved the system uptime by 20%",
+            "Designed and simulated power distribution and control circuits in MATLAB, developed end-to-end ML data pipelines in Python to preprocess and label sensor datasets which reduced model training by 30%",
+            "Responsible for project management combining AI and electronics research, monitored component budgets and inventory for the experiments conducted during research and implemented process optimizations that resulted in a 15% reduction in setup time and a 10% reduction in material waste."
         ]
     },
-    {
-        company: "OYO Rooms",
-        companyLogo: "https://cdn.brandfetch.io/idSXt7tZEr/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
-        color: '#EE2A24',
-        role: "Software Developer",
-        date: "Dec 2019 - Jan 2021",
-        desc: "",
-        descBullets: [
-            "Enhanced front-end UI/UX with Angular, improving the hotel manager’s operational efficiency.",
-            "Built and maintained hotel management modules, including dynamic pricing and booking systems.",
-            "Integrated secure OAuth 2.0 login and implemented continuous deployment with Docker and Jenkins."
-        ]
-    },
-    {
-        company: "Idea",
-        companyLogo: "https://cdn.brandfetch.io/idN6iTSgKh/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
-        color: '#ED2740',
-        role: "Junior Software Engineer",
-        date: "Oct 2017 - Nov 2019",
-        desc: "",
-        descBullets: [
-            "Developed REST APIs for mobile integrations and real-time subscription management.",
-            "Utilized Redis for caching to improve response time and reduce database load.",
-            "Assisted in CI/CD pipeline configuration using Jenkins and Maven."
-        ]
-    }
+    
+    
 ];const companyButtons = document.querySelectorAll('.company-button');
 const projectList = document.getElementById('project-list');
 
