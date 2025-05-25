@@ -33,7 +33,7 @@ const projects = [
         date: "Aug 2019 - May 2021",
         desc: "",
         descBullets: [
-            "Coordinated and managed a team of 6 students in designing and deploying AI enhanced electrical monitoring systems for three campus buildings, integrated voltage sensors and developed Random Forest, SVM modelsachieving 90% fault detection accuracy which improved the system uptime by 20%",
+            "Coordinated and managed a team of 6 students in designing and deploying AI enhanced electrical monitoring systems for three campus buildings, integrated voltage sensors and developed Random Forest, SVM models achieving 90% fault detection accuracy which improved the system uptime by 20%",
             "Designed and simulated power distribution and control circuits in MATLAB, developed end-to-end ML data pipelines in Python to preprocess and label sensor datasets which reduced model training by 30%",
             "Responsible for project management combining AI and electronics research, monitored component budgets and inventory for the experiments conducted during research and implemented process optimizations that resulted in a 15% reduction in setup time and a 10% reduction in material waste."
         ]
@@ -54,14 +54,6 @@ function renderProject(index) {
     projectDiv.style.backgroundColor = '#f9f9f9';
     projectDiv.style.borderLeft = `10px solid ${project.color}`;
     projectDiv.style.borderRadius = '5px';
-
-    // Add company logo and details
-    const companyLogo = document.createElement('img');
-    companyLogo.src = project.companyLogo;
-    companyLogo.alt = project.company;
-    companyLogo.style.width = '50px';
-    companyLogo.style.height = '50px';
-    projectDiv.appendChild(companyLogo);
 
     const companyName = document.createElement('h3');
     companyName.innerText = project.company;
