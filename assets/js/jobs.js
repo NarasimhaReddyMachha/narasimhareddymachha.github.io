@@ -1,7 +1,7 @@
 // Project data
 const projects = [
     {
-        company: "Creatrs Touch",
+        company: "Creators Touch",
         color: '#12385C',
         role: "Junior Web Developer",
         date: "Aug 2022 - June 2023",
